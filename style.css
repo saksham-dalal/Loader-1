@@ -1,0 +1,19 @@
+.loader {
+  border: 12px solid rgba(240, 237, 237, 0.904);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 250px;
+  border-top: 12px solid orangered;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
